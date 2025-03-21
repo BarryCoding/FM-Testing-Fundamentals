@@ -74,6 +74,22 @@ importers:
         specifier: ^2.1.1
         version: 2.1.9(@vitest/ui@2.1.9)
 
+  examples/characters:
+    dependencies:
+      uuid:
+        specifier: ^10.0.0
+        version: 10.0.0
+    devDependencies:
+      '@vitest/ui':
+        specifier: ^2.1.1
+        version: 2.1.9(vitest@2.1.9)
+      vite:
+        specifier: ^5.4.5
+        version: 5.4.14
+      vitest:
+        specifier: ^2.1.1
+        version: 2.1.9(@vitest/ui@2.1.9)
+
   examples/scratchpad:
     devDependencies:
       '@vitest/ui':
@@ -2076,6 +2092,11 @@ packages:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
       punycode: 2.3.1
+
+  /uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
+    dev: false
 
   /vite-node@2.1.9:
     resolution: {integrity: sha512-AM9aQ/IPrW/6ENLQg3AGY4K1N2TGZdR5e4gu/MmmR2xR3Ll1+dib+nook92g4TV3PXVyeyxdWwtaCAiUL0hMxA==}
