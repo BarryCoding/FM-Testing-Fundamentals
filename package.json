@@ -5,6 +5,7 @@
     "test:02": "pnpm --filter basic-math test",
     "test:03": "pnpm --filter strictly-speaking test",
     "test:04": "pnpm --filter characters test",
+    "test:05": "pnpm --filter element-factory test",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",

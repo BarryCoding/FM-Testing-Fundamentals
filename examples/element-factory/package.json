@@ -1,0 +1,15 @@
+{
+  "name": "element-factory",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vitest --ui",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^2.1.1",
+    "happy-dom": "^17.4.4",
+    "vite": "^5.4.5",
+    "vitest": "^2.1.1"
+  }
+}
