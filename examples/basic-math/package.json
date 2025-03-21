@@ -1,0 +1,16 @@
+{
+  "name": "basic-math",
+  "version": "1.0.0",
+  "description": "Let's talk about adding and subtracting numbers.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vitest --ui",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^2.1.1",
+    "vite": "^5.4.5",
+    "vitest": "^2.1.1"
+  }
+}
