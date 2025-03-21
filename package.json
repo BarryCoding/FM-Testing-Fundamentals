@@ -1,21 +1,12 @@
 {
+  "name": "fm-testing-fundamentals",
   "private": true,
   "scripts": {
     "test:01": "pnpm --filter scratchpad test",
     "test:02": "pnpm --filter basic-math test",
     "test:03": "pnpm --filter strictly-speaking test",
     "test:04": "pnpm --filter characters test",
-    "test:05": "pnpm --filter element-factory test",
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "test:05": "pnpm --filter element-factory test"
   },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "turbo": "^2.4.4"
-  },
-  "packageManager": "pnpm@8.15.6",
-  "name": "with-vite"
+  "packageManager": "pnpm@8.15.6"
 }
