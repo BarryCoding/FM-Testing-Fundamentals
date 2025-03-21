@@ -3,6 +3,7 @@
   "scripts": {
     "test:01": "pnpm --filter scratchpad test",
     "test:02": "pnpm --filter basic-math test",
+    "test:03": "pnpm --filter strictly-speaking test",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
