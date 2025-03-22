@@ -6,7 +6,9 @@
     "test:02": "pnpm --filter basic-math test",
     "test:03": "pnpm --filter strictly-speaking test",
     "test:04": "pnpm --filter characters test",
-    "test:05": "pnpm --filter element-factory test"
+    "test:05": "pnpm --filter element-factory test",
+    "test:06": "pnpm --filter accident-counter test",
+    "start:06": "pnpm --filter accident-counter start"
   },
   "packageManager": "pnpm@8.15.6"
 }
