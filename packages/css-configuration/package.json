@@ -1,0 +1,19 @@
+{
+  "name": "css-configuration",
+  "version": "1.0.0",
+  "description": "Some CSS settings for Vite/PostCSS that includes Tailwind",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "types": "tsc --emitDeclarationOnly --allowJs --declaration --skipLibCheck index.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.6"
+  }
+}
